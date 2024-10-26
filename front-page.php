@@ -17,23 +17,28 @@
             <div class="news-experience">
                 <a href="experience"><h2>体験乗馬　随時受付中</h2></a>
             </div>
-            <?php query_posts('posts_per_page=5'); ?> 
-            <?php if( have_posts() ):
-                while( have_posts() ) : the_post(); ?>
-                    <article class="front-news__wrap">
-                        <a href="<?php the_permalink(); ?>">
-                            <div class="front-news__wrap-inner">
-                                <time datetime="<?php the_time('Y-m-d'); ?>">
-                                    <?php the_time('Y.m.d'); ?>
-                                </time>   
-                                <h3><?php the_title() ?></h3>
-                            </div>
-                            <div>
-                            <i class="fas fa-caret-right  fa-2x"></i></div>
-                        </a>
-                    </article>
-                <?php endwhile; ?>
-            <?php endif; ?>            
+
+            <div class="news-scrollbox">
+                <?php query_posts('posts_per_page=10'); ?> 
+                <?php if( have_posts() ):
+                    while( have_posts() ) : the_post(); ?>
+                        <article class="front-news__wrap">
+                            <a href="<?php the_permalink(); ?>">
+                                <div class="front-news__wrap-inner">
+                                    <time datetime="<?php the_time('Y-m-d'); ?>">
+                                        <?php the_time('Y.m.d'); ?>
+                                    </time>   
+                                    <h3><?php the_title() ?></h3>
+                                </div>
+                                <div>
+                                <i class="fas fa-caret-right  fa-2x"></i></div>
+                            </a>
+                        </article>
+                    <?php endwhile; ?>
+                <?php endif; ?>         
+            </div>
+            
+
             <div class="news-list">
                 <a href="news"><h2>新着情報一覧はこちら<h2></a>
             </div>
