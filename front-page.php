@@ -151,24 +151,28 @@
                             <div class="horse-card">
                                 <img src="<?=get_template_directory_uri(); ?>/img/snowwhite.png" alt="スノーホワイト" />
                                 <img src="<?=get_template_directory_uri(); ?>/img/snowwhite-msg.png" alt="スノーホワイト" />
+                                <p>スノーホワイト</p>
                             </div>
                         </div>
                         <div class="swiper-slide swiper-slide-horse">
                             <div class="horse-card">
                                 <img src="<?=get_template_directory_uri(); ?>/img/locky.png" alt="ロッキー" />
                                 <img src="<?=get_template_directory_uri(); ?>/img/locky-msg.png" alt="ロッキー" />
+                                <p>ロッキー</p>
                             </div>
                         </div>
                         <div class="swiper-slide swiper-slide-horse">
                             <div class="horse-card">
                                 <img src="<?=get_template_directory_uri(); ?>/img/noel.png" alt="ノエル" />
                                 <img src="<?=get_template_directory_uri(); ?>/img/noel-msg.png" alt="ノエル" />
+                                <p>ノエル</p>
                             </div>
                         </div>
                         <div class="swiper-slide swiper-slide-horse">
                             <div class="horse-card">
                                 <img src="<?=get_template_directory_uri(); ?>/img/pony.png" alt="ポニー" />
                                 <img src="<?=get_template_directory_uri(); ?>/img/pony-msg.png" alt="ポニー" />
+                                <p>体験乗馬に来てね</p>
                             </div>
                         </div>
                     </div> 

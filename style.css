@@ -51,7 +51,18 @@ body {
     margin:20px auto 0 auto;
     padding-top:2em;
     padding-bottom:2em;
-
+}
+.page-inner-back h2 {
+    font-size:24px;
+    font-weight: bold;
+}
+.page-inner-back h3 {
+    font-size:20px;
+    font-weight: bold;
+}
+.page-inner-back h4 {
+    font-size:18px;
+    font-weight: bold;
 }
 .common-subtitle {
     color: var(--green-color);
@@ -135,8 +146,10 @@ body {
     padding:10px 20px;
     margin:0 0 0 auto;    
 }
-.common-btn-Contact:hover {
-    background-color: var(--yellogreen-color);
+@media screen and (min-width: 960px) {
+    .common-btn-Contact:hover {
+        background-color: var(--yellogreen-color);
+    }
 }
 .common-btn-Contact a{
     color: var(--white-color);
@@ -295,18 +308,19 @@ body {
     border-radius: 25px;
     color: var(--white-color);
 }
-.news-experience:hover{
-    background-color:var(--yellogreen-color);
-}
-.news-experience a:hover{
-    color: var(--green-color);
+@media screen and (min-width: 960px) {
+    .news-experience:hover{
+        background-color:var(--yellogreen-color);
+    }
+    .news-experience a:hover{
+        color: var(--green-color);
+    }
 }
 .news-experience h2{
     color: var(--white-color);
     font-size: 35px;
     padding:5px;
 }
-
 .news-list {
     width:300px;
     margin:auto;
@@ -316,8 +330,10 @@ body {
     border:solid 1px var(--green-color);
     border-radius: 25px;
 }
-.news-list:hover{
-    background-color: var(--yellogreen-color);
+@media screen and (min-width: 960px) {
+    .news-list:hover{
+        background-color: var(--yellogreen-color);
+    }
 }
 .news-list h2{
     color: var(--green-color);
@@ -343,9 +359,6 @@ body {
     background: var(--rightgreen-color);
     border-radius: 5px;
   }
-
-
-
 .front-news__wrap {
     position: relative;
     width:100%;
@@ -383,8 +396,10 @@ body {
     bottom:0px;
     right:0px;
 }
-.front-news__wrap a i:hover:before{
-    color:var(--yellogreen-color);
+@media screen and (min-width: 960px) {
+    .front-news__wrap a i:hover:before{
+        color:var(--yellogreen-color);
+    }
 }
 /* front-about */
 .front-about {
@@ -473,7 +488,6 @@ body {
     padding:3px 20px 3px 10px;
     text-align:right;
 }
-
 .membership-dtail tr:first-child td {
     padding-right:10px;
     text-align:center;
@@ -494,7 +508,6 @@ body {
 .swiper-pagination-horse {
     bottom: -20px;
 }
-
 .horse-card {
     cursor: pointer;
     margin-inline: auto;
@@ -516,10 +529,15 @@ body {
     transition: opacity .7s;
 }
 /* hoverすると2枚目の画像が透明じゃなくなる */
-.horse-card:hover img {
-    opacity: 1;
+@media screen and (min-width: 960px) {
+    .horse-card:hover img {
+        opacity: 1;
+    }
 }
-
+.horse-card p {
+    display:none;
+    position: absolute;
+}
 /* front-facility */
 .front-facility {
     background-color: var(--white-color);
@@ -613,10 +631,8 @@ body {
     padding: 5px 10px;
     border-radius: 50px;
 }
-.single-inner h3{
-    margin:1em auto;
-    font-size: 24px;
-    font-weight: bold;
+.single-inner h5{
+    color:var(--green-color);
 }
 .single-detail {
     display: flex;
@@ -680,8 +696,10 @@ body {
     bottom:-2px;
     right:0px;
 }
-.archive-news__wrap a i:hover:before{
-    color:var(--yellogreen-color);
+@media screen and (min-width: 960px) {
+    .archive-news__wrap a i:hover:before{
+        color:var(--yellogreen-color);
+    }
 }
 /* ** PageNavi カスタマイズ ** */ 
 .wp-pagenavi {
@@ -707,11 +725,13 @@ body {
 	text-decoration:none;
     font-size:14px;
 }
-.wp-pagenavi a:hover{
-    /* color:var(--white-color); */
-    background-color:var(--rightgreen-color) ;
-    /* border-color:#999; */
+@media screen and (min-width: 960px) {
+    .wp-pagenavi a:hover{
+        /* color:var(--white-color); */
+        background-color:var(--rightgreen-color) ;
+        /* border-color:#999; */
     }
+}
 .wp-pagenavi span.current{
 	color: var(--white-color);
 	background-color: var(--green-color);
@@ -789,9 +809,11 @@ div.wpcf7 select[name="reason"] {
     border: none;
     border-radius: 5px;
 }
-.cf7-form input[type="submit"]:hover,
-.cf7-form input[type="button"]:hover {
-    background-color: var(--yellogreen-color);
+@media screen and (min-width: 960px) {
+    .cf7-form input[type="submit"]:hover,
+    .cf7-form input[type="button"]:hover {
+        background-color: var(--yellogreen-color);
+    }
 }
 /* staff-blog */
 .archive-inner-blog {
@@ -828,6 +850,30 @@ div.wpcf7 select[name="reason"] {
 }
 .archive-dropdown-card {
     text-align:right;
+}
+.single-inner h1 {
+    font-size:24px;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.single-inner h2 {
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.single-inner h3 {
+    font-size:18px;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.single-inner h4 {
+    font-size:16px;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 .widget {
     font-size: 16px;

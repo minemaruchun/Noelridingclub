@@ -20,6 +20,22 @@
     .page-inner-back {
         max-width:90%;
     }
+    .page-inner-back h1 {
+        font-size:20px;
+        font-weight: bold;
+    }
+    .page-inner-back h2 {
+        font-size:18px;
+        font-weight: bold;
+    }
+    .page-inner-back h3 {
+        font-size:16px;
+        font-weight: bold;
+    }
+    .page-inner-back h4 {
+        font-size:14px;
+        font-weight: bold;
+    }
     .common-subtitle {
         height: 32px;
         margin:10px auto 25px auto;
@@ -102,6 +118,17 @@
     .horse-card img {
         border-radius: 50%;
     }
+    .horse-card p {
+        display:block;      
+        width:100%;  
+        position: absolute;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        bottom:10%;
+        background-color: rgba(121,121,121,0.5);
+        color: var(--white-color);
+    }
     /* front-facility */
     .facility-container__card-text {
         margin-left:10px;
@@ -124,10 +151,6 @@
         font-size: 14px;
         border:solid 0.5px var(--green-color);
         padding: 3px 7px;
-    }
-    .single-inner h3{
-        font-size: 16px;
-        width:100%;
     }
     .single-detail__text {
         width: 60%;
