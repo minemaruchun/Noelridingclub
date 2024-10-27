@@ -229,9 +229,19 @@
                     <li>休業日　 / 毎週　火曜日</li>
                     <li>営業時間 / 9:30～18:30</li>
                     <li>
-                        <div class="common-btn-Contact access-btn-Contact">
-                            <a href="contact"><h3>お問い合わせ<br>Contact</h3></a>
-                        </div>
+                        <ul class="icon-container">
+                            <li class="icon-container__card">
+                                <a href="#"><img src="<?=get_template_directory_uri(); ?>/img/line.png" alt="lineロゴ" /></a>                         
+                            </li>
+                            <li  class="icon-container__card2">
+                                <a href="#"><img src="<?=get_template_directory_uri(); ?>/img/logo_ig.png" alt="instagramロゴ" /></a>
+                            </li>
+                            <li>
+                                <div class="common-btn-Contact access-btn-Contact">
+                                    <a href="contact"><h3>お問い合わせ<br>Contact</h3></a>
+                                </div>
+                            </li>
+                        </ul>
                     </li>                        
                 </ul>
             </div>
