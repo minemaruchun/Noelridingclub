@@ -50,6 +50,10 @@
         width: 30px;
         height: 30px;
     }
+    .common-btn-Contact {
+        font-size:14px;
+    }
+
     /* header */
     .header{
         min-width:100%;
