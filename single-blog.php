@@ -8,7 +8,7 @@
         </div>
         <div class="page-inner-back single-inner">
             <time><?=get_the_date('Y.m.d');?></time>
-            <h1><?php the_title() ?></h1>
+            <h2><?php the_title() ?></h2>
             <div class="single-detail">
                 <div class="single-detail__text">
                     <p><?php the_content() ?></p>

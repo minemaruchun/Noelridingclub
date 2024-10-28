@@ -656,6 +656,36 @@ body {
 .single-news-list {
     margin-top:1em;
 }
+
+.single-inner h2 {
+    font-size:24px;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.single-inner h3 {
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.single-inner h4 {
+    font-size:18px;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.single-inner h5 {
+    font-size:16px;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.single-detail ul {
+    list-style: disc;
+    margin-left:20px;
+}
+
 /* archive */
 .archive-inner_block {
     display: inline-block;
@@ -850,30 +880,6 @@ div.wpcf7 select[name="reason"] {
 }
 .archive-dropdown-card {
     text-align:right;
-}
-.single-inner h1 {
-    font-size:24px;
-    font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-.single-inner h2 {
-    font-size:20px;
-    font-weight: bold;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-.single-inner h3 {
-    font-size:18px;
-    font-weight: bold;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-.single-inner h4 {
-    font-size:16px;
-    font-weight: bold;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
 }
 .widget {
     font-size: 16px;
