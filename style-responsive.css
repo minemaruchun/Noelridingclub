@@ -200,6 +200,9 @@
     .single-detail__text-blog p{    
         font-size: 14px;
     }
+    .archive-news__wrap-blog a i{
+        right:25%;
+    }
 }
 /* レスポンシブ対応 648px以下 */
 @media screen and (max-width:648px) {

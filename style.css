@@ -856,10 +856,17 @@ div.wpcf7 select[name="reason"] {
 .archive-inner__right {
     width:calc(100% - 200px) ;
 }
+.single-detail__img {
+    width: 30%;
+    margin:auto;
+}
+.single-detail__img img{
+    margin-left:10px;
+}
 .archive-news__wrap-inner-blogdetail {
     display:flex;
     flex-direction: column;
-    width:400px;
+    width:350px;
 }
 .archive-news__wrap-inner-blogdetail h3 {    
     font-size: 16px;
@@ -869,14 +876,14 @@ div.wpcf7 select[name="reason"] {
 .single-detail__text-blog {    
     height:4em;
     overflow: hidden;
-    width:400px;
+    width:100%;
 }
 .single-detail__text-blog p{    
     font-size: 16px;
     padding-left: 5px;
 }
 .archive-news__wrap-blog a i{
-    right:28%;
+    right:32%;
 }
 .archive-dropdown-card {
     text-align:right;
